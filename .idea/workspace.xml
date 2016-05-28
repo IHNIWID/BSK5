@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65b82a20-5391-487f-885d-28e572714b25" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BSK5/DaH.class" afterPath="$PROJECT_DIR$/out/production/BSK5/DaH.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DaH.java" afterPath="$PROJECT_DIR$/src/DaH.java" />
-    </list>
+    <list default="true" id="65b82a20-5391-487f-885d-28e572714b25" name="Default" comment="" />
     <ignored path="BSK5.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -594,15 +590,15 @@
       <option name="presentableId" value="Default" />
       <updated>1464437797808</updated>
       <workItem from="1464437803185" duration="5602000" />
-      <workItem from="1464444532309" duration="2432000" />
+      <workItem from="1464444532309" duration="2727000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8034000" />
+    <option name="totallyTimeSpent" value="8329000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
