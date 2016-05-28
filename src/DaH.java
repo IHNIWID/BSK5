@@ -32,13 +32,30 @@ public class DaH /*Deffie and Hellman*/{
 
     private int calculateC(int M, int a, int q){
 
-        int c = ((int) Math.pow(a,M))%q;
+        int c = fastpow(a,M,q);
         return c;
     }
 
     private int commonKey(int C, int M, int q){
-        int k = 0;
-        k = ((int) Math.pow(C,M))%q;
+
+        int k = fastpow(C,M,q);
         return k;
+    }
+
+    public static int fastpow(int base, int exponent, int modulo) {
+        int i;
+        int result = 1;
+        long x = base % modulo;
+
+        for (i = 1; i <= exponent; i <<= 1) {
+            x %= modulo;
+            if ((exponent & i) != 0) {
+                result *= x;
+                result %= modulo;
+            }
+            x *= x;
+        }
+
+        return result;
     }
 }
